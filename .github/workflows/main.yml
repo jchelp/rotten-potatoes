@@ -25,7 +25,7 @@ jobs:
           context: ./src
           file: ./src/Dockerfile
           push: true
-          tags: 
+          tags: |
             jchelp/rotten-potatoes:latest
             jchelp/rotten-potatoes:${{ github.run_number }}
             
